@@ -1,6 +1,7 @@
 # ExtraXTremeAutomation
 
 [![NuGet](https://img.shields.io/nuget/v/ExtraXTremeAutomation.svg)](https://www.nuget.org/packages/ExtraXTremeAutomation/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/ExtraXTremeAutomation.svg)](https://www.nuget.org/packages/ExtraXTremeAutomation/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 .NET automation library for automating mainframe terminal applications using **Micro Focus Extra!**.
