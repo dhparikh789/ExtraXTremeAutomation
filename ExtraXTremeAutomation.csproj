@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+
+    <TargetFramework>net8.0</TargetFramework>
+
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <Nullable>enable</Nullable>
+
+
+    <!-- NuGet Information -->
+
+    <PackageId>ExtraXTremeAutomation</PackageId>
+
+    <Version>1.0.7</Version>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <Authors>Dhaval Parikh</Authors>
+
+    <Company>Dhaval Parikh</Company>
+
+    <Copyright>Copyright © 2026 Dhaval Parikh</Copyright>
+
+
+    <PackageProjectUrl>
+      https://github.com/dhparikh789/ExtraXTremeAutomation
+    </PackageProjectUrl>
+
+    <RepositoryUrl>
+      https://github.com/dhparikh789/ExtraXTremeAutomation
+    </RepositoryUrl>
+
+    <RepositoryType>git</RepositoryType>
+
+
+    <Description>
+      .NET automation library for automating Micro Focus Extra! mainframe terminal applications using COM automation.
+    </Description>
+
+
+    <PackageTags>
+      Mainframe;3270;Extra;Extra!;Terminal;Automation;COM;MainframeAutomation
+    </PackageTags>
+
+
+    <PackageReleaseNotes>
+      Initial release of ExtraXTremeAutomation library.
+    </PackageReleaseNotes>
+
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+  </PropertyGroup>
+
+
+  <ItemGroup>
+
+    <None Include="README.md"
+          Pack="true"
+          PackagePath="\" />
+
+  </ItemGroup>
+
+
+</Project>
